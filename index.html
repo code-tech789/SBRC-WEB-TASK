@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Event Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#event-details">Event Details</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#registration">Register</a></li>
+            <li><a href="#faq">FAQ</a></li> <!-- Added FAQ link -->
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Join Us for the Ultimate Event Experience!</h1>
+            <p>Don't miss out on the event of the year. Register now and be part of something amazing!</p>
+            <a href="#registration" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section class="event-details" id="event-details">
+        <h2>Event Details</h2>
+        <div class="details-grid">
+            <div class="detail-item">
+                <img src="img2.jpeg" alt="Feature 1">
+                <h3>Event Purpose</h3>
+                <p>Our event will provide valuable insights, networking opportunities, and the chance to learn from industry leaders.</p>
+            </div>
+            <div class="detail-item">
+                <img src="im.png" alt="Feature 2">
+                <h3>What to Expect</h3>
+                <p>Engaging workshops, exciting speakers, and a chance to connect with like-minded individuals.</p>
+            </div>
+            <div class="detail-item">
+                <img src="I.jpg" alt="Feature 3">
+                <h3>Event Benefits</h3>
+                <p>Gain new skills, expand your network, and walk away with practical takeaways that will help you grow professionally.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us:</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:info@event.com">info@event.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+1234567890">+1 234 567 890</a></p>
+            <div class="social-media">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+                <a href="#" class="social-icon">IG</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li><strong>What is the event schedule?</strong> The event starts at 9:00 AM and ends at 5:00 PM.</li>
+            <li><strong>Is there an early bird discount?</strong> Yes, we are offering a 20% discount for early registration before the end of this month.</li>
+            <li><strong>Where will the event be held?</strong> The event will take place at XYZ Convention Center, City Name.</li>
+            <li><strong>Are meals provided during the event?</strong> Yes, lunch and snacks will be provided throughout the day.</li>
+            <li><strong>Is there parking available at the venue?</strong> Yes, the venue offers on-site parking for all attendees.</li>
+            <li><strong>Can I transfer my registration to someone else?</strong> Yes, you can transfer your registration up to 3 days before the event. Please contact us for assistance.</li>
+            <li><strong>What should I bring to the event?</strong> We recommend bringing a notebook and pen for taking notes. If you're attending workshops, feel free to bring your laptop or tablet.</li>
+            <li><strong>Will there be a virtual option for the event?</strong> Yes, we will offer a live stream of the event for virtual attendees.</li>
+        </ul>
+    </section>
+
+    <!-- Registration Section -->
+    <section class="registration" id="registration">
+        <h2>Ready to Join?</h2>
+        <p>Sign up now to secure your spot. Don’t wait—spaces are limited!</p>
+        
+        <!-- Registration Form -->
+        <form action="#" method="POST" class="registration-form">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required placeholder="Your Full Name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email Address">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+
+            <label for="event-type">Event Type</label>
+            <select id="event-type" name="event-type" required>
+                <option value="general">General Admission</option>
+                <option value="vip">VIP Access</option>
+            </select>
+
+            <button type="submit" class="cta-button">Submit Registration</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Your Company. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
